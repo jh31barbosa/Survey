@@ -4,5 +4,5 @@ Project created with Django 4.2
 To run this app you need follow this steps on the terminal:
     - pip install django
     - go to the project source folder where it's "manage.py"
-    - run the following comand: python3 manage.py runserver
+    - run the following command: python3 manage.py runserver
     - go to your browser and type 127.0.0.1:8000/polls/
