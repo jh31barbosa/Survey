@@ -1,6 +1,6 @@
 This project it's a survey with 6 topics about python and 5 possible answers to vote which one you think it's the correct.
 
-Project created with Django 4.2
+Project created with Django 4.2, HTML with django templates and some basic css.
 To run this app you need follow this steps on the terminal:
     - pip install django
     - go to the project source folder where it's "manage.py"
