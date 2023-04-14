@@ -4,9 +4,11 @@ from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
 from .models import Choice, Question
+from django.views.generic import TemplateView
 
-def homePageView(request):
-        return HttpResponse("<h2>This is a pools Home Page About Python")
+
+class HomePageView(TemplateView):
+    template_name = "home.html"
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
